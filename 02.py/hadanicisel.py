@@ -5,9 +5,8 @@ def guess_the_number():
     secret_number = random.randint(1, 100)
     
     attempts = 0
-    max_attempts = 15  # You can adjust the maximum number of attempts
+    max_attempts = 15  
     
-    print("Welcome to the Number Guessing Game!")
     print(f"Myslím si čislo mezi 1 a 100.")
     
     while attempts < max_attempts:
